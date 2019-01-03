@@ -1,0 +1,217 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:image" content="http://mrun.clubrunning.org/icons/mrun_social_media_icon.png"/>
+    <meta property="og:image:secure_url" content="http://mrun.clubrunning.org/icons/mrun_social_media_icon.png" />
+    <title>Race Across Michigan</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style-1.css">
+  </head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!--Mobile Menu Button-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!--MRun logo and Title-->
+        <a href="http://mrun.clubrunning.org/index"><img class="navbar-brand hidden-lg" src="../icons/mrun.png" />
+
+        <a class="navbar-brand visible-lg" style="text-transform:uppercase;font-size:14px;" href="/"> University of Michigan Running Club</a>
+        
+      </div>
+	      <div id="navbar" class="collapse navbar-collapse">
+	        <ul class="nav navbar-nav">
+	          <li id="/"><a href="/ram">Home</a></li><!-- EDIT THIS-->
+            <li id="ram_events"><a href="ram_events.php">Events</a></li>
+	          <li id="ram_sponsors"><a href="ram_sponsors.html">Sponsors</a></li><!-- Keep link1 in href and id the same value-->
+	          <li id="ram_donate"><a href="ram_donate.html">Make a Donation</a></li>
+	          <li class="navbar-right"><a href="mailto:ramcoordinators@umich.edu">Email us</a></li>
+	        </ul>
+	      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+<!-- EDIT THIS-->
+<link rel="stylesheet" href="carousel.css">
+
+<div id="myCarousel" class="carousel slide race" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="current">
+    </div>
+  </div>
+</div>
+
+<div style="background:#FFF;width:100%;height:150px;position:absolute;"></div>
+
+<?php 
+  $re = "/\#(ram) (\d+)(.*?)#/s";
+  $str = file_get_contents("events.txt");
+  preg_match($re, $str, $matches);
+?>
+
+<div class="container" style="margin-bottom:100px;">
+  <div class="row">
+    <div class="newsletters col-md-4">
+            <ul class="list-group">
+              <a target="_blank" href="https://www.google.com/calendar/embed?src=umich.edu_d68unhtrpcd92fsubuo4p8d43c%40group.calendar.google.com&ctz=America/New_York">
+                <li class="list-group-item title">
+                  <?php echo $matches[2]; ?> RAM EVENTS
+                </li>
+              </a>
+              <?php 
+                $events = $matches[3];
+                $events = str_replace("/", "<li class='list-group-item'>" , $events);
+                $events = str_replace("\\", "</li>" , $events);
+                echo $events; 
+              ?>
+            </ul>
+          </div>
+          <div class="col-md-7" style="margin-top:20px;">
+      <p>If you haven't already filled out your Maize Page waiver forms, then you can't run in any meets! The link to Maize Pages is at the bottom of the page.</p>
+      <p>All checks for MRun transactions should be made out to "University of Michigan" with "Running club" in the memo line. Talk to the swag chair, Jenn Smith, to order swag, and talk to any board members at office hours to sign up and pay for meets.</p>
+      <p>If you are already in MRun, then you can join our Facebook group: MRun Fun! You should also check out our calendar of upcomming events, view race photos on NIRCA, and see potential routes on the MapMyRun app.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+div#footer {
+  width:100%;
+  background:#FFF;
+  /*background-image:url("../icons/stripes.png");*/
+  height:100px;
+}
+</style>
+
+<div id="footer">
+  
+</div>
+
+    <!--JQuery-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Google Analytics-->
+
+    <script>
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57198287-1', 'auto');
+
+      ga('send', 'pageview');
+
+    </script>
+
+
+    <!--Script-->
+
+    <script>
+      $(function() {
+        $(".dropdown").hover(
+          function(){ $(this).addClass('open')},
+          function(){ $(this).removeClass('open') }
+        );
+        $("nav ul li").hover(
+          function(){
+            $(this).addClass('active')
+
+          },
+          function(){
+            if($(this).hasClass('current'))return;
+            $(this).removeClass('active')
+          }
+        );
+        {
+          try {
+
+            var file = document.location.href.match(/[^\/]+$/)[0];
+
+            id = "#" + file;
+
+            id = (id=="#tf" || id=="#xc") ? "#races" : (id=="#current"||id=="#prospective") ? "#members" : (file.substr(0,4)=="news") ? "#news" : id;   //something has to be done here
+
+          }
+          catch(e) {
+            id = "#index";
+          }
+
+          $(id).addClass("active current");
+
+        }
+      });
+      window.onload = function(){
+
+        var images = new Array();
+
+        var imagesNames = new Array();
+
+        function preload() {
+
+          for (i = 0; i < preload.arguments.length; i++) {
+
+            images[i] = new Image()
+
+            images[i].src = preload.arguments[i]
+
+          }
+
+        }
+
+        for(var i=2; i<=3; i++) imagesNames.push("bg/bg-slide-"+i+".jpg");
+
+        preload(imagesNames);
+
+      }
+      $("#scroll-more-info").click(function(){
+
+        var loc = $("#more-info").offset().top;
+
+        $("body,html").animate({scrollTop: loc},400);
+
+      });
+
+      var TOP = ($(".carousel").hasClass("race")) ? -200 : 5;
+
+      document.addEventListener("scroll", function(){
+
+        var top = $(document).scrollTop();
+
+        $(".carousel").css({
+
+          "top": TOP+(top/4)
+        });
+      })
+    </script>
+  </body>
+</html>
+

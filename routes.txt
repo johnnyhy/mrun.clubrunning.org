@@ -1,0 +1,103 @@
+BLANK
+3.00 ~ Fuller Park
+3.01 ~ Ferdon-Wells-Forest
+3.01 ~ Geddes Neighborhoods
+3.01 ~ Washtenaw - Packard
+3.04 ~ Ann & Madison
+3.05 ~ 5th And Back
+3.09 ~ The King's Run
+3.18 ~ Avon Fun
+3.23 ~ Arlington Loop
+3.39 ~ Riverside Park
+3.46 ~ Onondaga-Main
+3.65 ~ Arb - Gallup
+3.65 ~ Hiscock
+3.68 ~ Ferdon - Stadium - White
+3.77 ~ Chapin III
+3.93 ~ The Prez
+3.99 ~ Bockman
+4.02 ~ White - Packard
+4.18 ~ Arb - Devonshire
+4.20 ~ Virginia
+4.26 ~ Geddes - Devon - Wash
+4.27 ~ Granger - Shadford
+4.41 ~ Alec Baldwin
+4.59 ~ Arlington - Kenilworth
+4.82 ~ Ferdon Forever
+4.82 ~ Huron - Seventh
+4.85 ~ Broadway Run
+4.89 ~ Gallup Crossing
+4.96 ~ Broadway Bridge Style
+5.00 ~ Hippo
+5.10 ~ Medical Center - Plymouth
+5.15 ~ Arby's Loop
+5.19 ~ Pauline
+5.15 ~ Huron HS
+5.24 ~ Huronview
+5.26 ~ Summit Hill
+5.37 ~ Master of Baits
+5.41 ~ Nowhere Exciting
+5.42 ~ Huron Pkwy
+5.48 ~ 7th
+5.55 ~ Pioneer Trails - Short
+5.56 ~ Wash/Stad/Mai
+5.63 ~ Amanda's 1st & Ferdon
+5.74 ~ Baby Bird
+5.76 ~ Cedar Bend
+5.78 ~ 7th St. Trails
+5.91 ~ Packard For Somewhat Less Than Forever
+5.94 ~ Nord Campus
+5.96 ~ Huron Pkwy South
+6.09 ~ County Farm Park
+6.10 ~ Maple
+6.13 ~ Huron HS Extended
+6.43 ~ Eisenhower (Bread Run)
+6.66 ~ Summit Hill Extnd.
+6.70 ~ Leslie
+6.78 ~ Hipster Stadium
+6.94 ~ THE ROOT (Plymouth Huron Pkwy)
+6.94 ~ Max Hock Special
+7.16 ~ All Pauline
+7.19 ~ Bird - Huron River Dr.
+7.23 ~ Leslie Golf Course Run
+7.24 ~ Willis Trails
+7.25 ~ Packard Forever
+7.42 ~ Glazier Way Backway Long
+7.42 ~ Pioneer Trails
+7.50 ~ Doyle & County Farm Parks
+7.58 ~ AA Neighborhood Run
+7.64 ~ Devonshire - Huron Pkwy
+7.67 ~ Scio - Maple - Liberty
+7.68 ~ Hopefully Something That Doesn't Suck
+7.74 ~ Southwest Trails
+7.75 ~ Soundstage Trails
+8.03 ~ Southeastern Neighborhood
+8.04 ~ All Stadium
+8.2 ~ Super Root
+8.31 ~ Bird Trails
+8.62 ~ Dhu Varren
+8.77 ~ Lapping Concordia
+8.86 ~ HAMMER
+9.08 ~ Train Station Extended
+9.2 ~ (We All) Dhu Leslie
+9.29 ~ Liberty Trails
+10.06 ~ Packard Insomniac
+10.17 ~ Sugarbush
+10.24 ~ Glazier Way Long Run
+10.33 ~ Springvalley-Bartonshore
+10.36 ~ Earhart
+10.72 ~ Dhu Varen Trails
+10.82 ~ Washtenaw Community College
+11.50 ~ Jake and Ross's Summertime Special
+11.55 ~ Whitmore Lake - Bandemer Park
+11.81 ~ Warren
+12.52 ~ Barton Shore Ext.
+12.88 ~ John Holmes is Alive, Well, and Lives in Dexter
+12.98 ~ Domino's Farms
+13.11 ~ Huron Crossing Ext.
+13.26 ~ Packard Literally Forever
+13.85 ~ Delhi
+14.02 ~ Tubbsy Bitch
+14.92 ~ We Should Be Fine, I Think This Goes Somewhere
+15.15 ~ Botanical Gardens
+16.08 ~ Oh Joy

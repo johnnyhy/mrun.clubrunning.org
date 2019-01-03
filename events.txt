@@ -1,0 +1,31 @@
+#current 2018
+/Hot Chocolate Social – 1.10\
+/Trivia Night – 1.19\
+/Pasta Party – 1.26\
+/Super Bowl Party – 2.4\
+/Waffle Breakfast – 2.11\
+/RAM Pong Tourney – 3.10\
+/Chocolate Milk 4x4 - 3.22\
+/Pinball Pete Night – 3.28\
+/Selfie Assassin – 4.4\
+/MRun Banquet – 4.21\
+#
+
+#xc 2018
+/Saturday, September 22nd - MC5\
+/Saturday, September 29th - L10s (home meet)\
+/Saturday, October 13th - Spartan Grand Classic\
+/Saturday, October 20th - Regionals\
+/Saturday, November 10th - Nationals\
+#
+
+#tf 2018
+/Saturday, January 27th - SVSU Jet’s Pizza Invite\
+/Saturday, February 3rd - Hillsdale Wide Track Invite\
+/Saturday, February 17th - Hillsdale Tune-Up\
+/Saturday, February 24th - Illinois Club Relays\
+/Saturday, March 31st - Cedarville Open\
+/Saturday, April 7th - Hillsdale Invite\
+/Saturday - Sunday, April 14-15 - NIRCA Track Nationals\
+/Thursday - Saturday, April 26-28 - Hillsdale GINA Relays\
+#
