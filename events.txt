@@ -1,14 +1,9 @@
-#current 2018
-/Hot Chocolate Social – 1.10\
-/Trivia Night – 1.19\
-/Pasta Party – 1.26\
-/Super Bowl Party – 2.4\
-/Waffle Breakfast – 2.11\
-/RAM Pong Tourney – 3.10\
-/Chocolate Milk 4x4 - 3.22\
-/Pinball Pete Night – 3.28\
-/Selfie Assassin – 4.4\
-/MRun Banquet – 4.21\
+#current 2019
+/Saturday, January 12th - Track Meet Volunteering\
+/Sunday, January 13th - Winter Mass Meeting\
+/Monday, January 21st - RAM Mass Meeting\
+/Sunday, February 3rd - Super Bowl Party\
+/Saturday, April 27th - MRun Banquet\
 #
 
 #xc 2018
@@ -19,13 +14,11 @@
 /Saturday, November 10th - Nationals\
 #
 
-#tf 2018
-/Saturday, January 27th - SVSU Jet’s Pizza Invite\
-/Saturday, February 3rd - Hillsdale Wide Track Invite\
-/Saturday, February 17th - Hillsdale Tune-Up\
-/Saturday, February 24th - Illinois Club Relays\
-/Saturday, March 31st - Cedarville Open\
-/Saturday, April 7th - Hillsdale Invite\
-/Saturday - Sunday, April 14-15 - NIRCA Track Nationals\
-/Thursday - Saturday, April 26-28 - Hillsdale GINA Relays\
+#tf 2019
+/Saturday, January 26th - SVSU Jet’s Pizza Invite\
+/Saturday, February 2nd - Hillsdale Wide Track Invite\
+/Saturday, February 16th - Hillsdale Tune-Up\
+/Saturday, February 23rd - Illinois Club Relays\
+/Saturday - Sunday, April 13-14 - NIRCA Track Nationals\
+/Thursday - Saturday, April 25-27 - Hillsdale GINA Relays\
 #
